@@ -120,6 +120,11 @@ records) takes around 3.5 hours.
 - Duplicate articles are removed by DOI, then by normalized title.
 - Some abstracts contain characters that aren't valid XML. These are removed before parsing.
 
+## License
+
+[MIT](LICENSE). This license covers the code only. Article metadata harvested from ThaiJo
+remains subject to ThaiJo's and each journal's terms.
+
 ---
 
 ## ภาษาไทย
@@ -241,3 +246,8 @@ ThaiJo อนุญาต **10 คำขอต่อนาทีต่อ IP** �
 - ชื่อเรื่องสองภาษาที่คั่นด้วย ` | ` จะถูกแยกเป็นคอลัมน์ภาษาอังกฤษและภาษาไทย
 - บทความซ้ำจะถูกตัดออกโดยดูจาก DOI ก่อน แล้วจึงดูจากชื่อเรื่อง
 - บทคัดย่อบางเรื่องมีอักขระที่ XML ไม่รองรับ สคริปต์จะลบออกก่อนอ่านข้อมูล
+
+### สัญญาอนุญาต
+
+[MIT](LICENSE) ครอบคลุมเฉพาะโค้ด ข้อมูลบทความที่ดึงมาจาก ThaiJo
+ยังอยู่ภายใต้เงื่อนไขของ ThaiJo และของแต่ละวารสาร
